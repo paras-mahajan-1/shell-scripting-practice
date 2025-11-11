@@ -1,0 +1,5 @@
+export PATH=/usr/bin:/bin
+today() {
+    echo -n "Today's date is: "
+    date +"%A, %B %-d, %Y
+}
